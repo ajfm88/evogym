@@ -1,4 +1,5 @@
 import Navbar from "@/scenes/navbar";
+import Home from "@/scenes/home";
 import { useState } from "react";
 
 function App() {
