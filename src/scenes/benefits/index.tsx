@@ -15,19 +15,19 @@ const benefits: Array<BenefitType> = [
     icon: <HomeModernIcon className="h-6 w-6" />,
     title: "State of the Art Facilities",
     description:
-      "Neque adipiscing amet amet enim. Feugiat dolor enim fermentum in a in lectus pellentesque. Ullamcorper et.",
+      "We've invested in state-of-the-art facilities, including top-of-the-line cardio and strength training equipment, spacious workout areas, and comfortable locker rooms.",
   },
   {
     icon: <UserGroupIcon className="h-6 w-6" />,
     title: "100's of Diverse Classes",
     description:
-      "Eu ipsum id egestas risus tempus enim semper felis quis. Nec consectetur ac venenatis facilisi est. Eget ac turpis id.",
+      "With hundreds of diverse classes to choose from, you're sure to find the perfect workout to fit your fitness goals and schedule at EvoGym.",
   },
   {
     icon: <AcademicCapIcon className="h-6 w-6" />,
     title: "Expert and Pro Trainers",
     description:
-      "Fusce vestibulum aliquam ut cras. Nisl lectus egestas sapien nisl. Lacus at mi sit pellentesque. Congue parturient.",
+      "Our gym is staffed with expert and pro trainers who are dedicated to helping you achieve your fitness goals and provide you with personalized training plans to make your fitness journey even more effective.",
   },
 ];
 
@@ -62,9 +62,13 @@ const Benefits = ({ setSelectedPage }: Props) => {
         >
           <HText>MORE THAN JUST GYM.</HText>
           <p className="my-5 text-sm">
-            We provide world class fitness equipment, trainers and classes to
-            get you to your ultimate fitness goals with ease. We provide true
-            care into each and every member.
+            Welcome to EvoGym, your premier destination for fitness and wellness
+            in Los Angeles, CA! We offer a wide range of classes and programs to
+            help you achieve your fitness goals, whether you're a seasoned
+            athlete or just starting out on your fitness journey. Our
+            state-of-the-art facilities and expert trainers are here to support
+            you every step of the way. Join us today and take the first step
+            towards a healthier, happier you.
           </p>
         </motion.div>
 
@@ -131,18 +135,22 @@ const Benefits = ({ setSelectedPage }: Props) => {
               }}
             >
               <p className="my-5">
-                Nascetur aenean massa auctor tincidunt. Iaculis potenti amet
-                egestas ultrices consectetur adipiscing ultricies enim. Pulvinar
-                fames vitae vitae quis. Quis amet vulputate tincidunt at in
-                nulla nec. Consequat sed facilisis dui sit egestas ultrices
-                tellus. Ullamcorper arcu id pretium sapien proin integer nisl.
-                Felis orci diam odio.
+                At EvoGym, we believe that fitness is more than just a workout -
+                it's a lifestyle. That's why we're committed to providing our
+                members with the tools and resources they need to achieve their
+                health and wellness goals, both inside and outside the gym. Our
+                team of certified trainers are experts in their fields, and are
+                dedicated to helping you reach your full potential. Whether
+                you're looking to build muscle, burn fat, or simply improve your
+                overall health, we've got you covered.
               </p>
               <p className="mb-5">
-                Fringilla a sed at suspendisse ut enim volutpat. Rhoncus vel est
-                tellus quam porttitor. Mauris velit euismod elementum arcu neque
-                facilisi. Amet semper tortor facilisis metus nibh. Rhoncus sit
-                enim mattis odio in risus nunc.
+                Joining EvoGym is easy! We offer a variety of membership options
+                to fit your needs and budget, including: Monthly memberships,
+                Annual memberships, Corporate memberships, Student memberships,
+                and more! All of our memberships come with access to our
+                state-of-the-art facilities, as well as our expert trainers and
+                a wide range of classes and programs.
               </p>
             </motion.div>
 

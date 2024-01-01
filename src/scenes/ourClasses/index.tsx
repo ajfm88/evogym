@@ -13,33 +13,37 @@ const classes: Array<ClassType> = [
   {
     name: "Weight Training Classes",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "Our weight training classes are designed to help you build strength, increase muscle mass, and improve your overall fitness level.",
     image: image1,
   },
   {
     name: "Yoga Classes",
+    description:
+      "Our Yoga classes are designed to help you improve your flexibility, reduce stress, and promote overall health and wellness.",
     image: image2,
   },
   {
     name: "Ab Core Classes",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "Our abdominal classes are designed to help you strengthen your core muscles, improve your posture, and achieve a leaner, more toned physique.",
     image: image3,
   },
   {
     name: "Adventure Classes",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "Our adventure classes, held in the great outdoors, offer a unique and exciting way to stay fit while exploring the beauty of nature, and are led by experienced trainers who will challenge you to push your limits and achieve your fitness goals.",
     image: image4,
   },
   {
     name: "Fitness Classes",
+    description:
+      "Our fitness classes are designed to provide a dynamic and high-energy workout that will help you improve your cardiovascular endurance, build strength, and boost your metabolism, all while having fun and being part of a supportive fitness community.",
     image: image5,
   },
   {
     name: "Training Classes",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "Our training classes are designed to provide you with personalized instruction and support from our expert trainers, who will help you develop proper technique, set achievable goals, and achieve real results in a supportive and motivating environment.",
     image: image6,
   },
 ];
@@ -68,10 +72,12 @@ const OurClasses = ({ setSelectedPage }: Props) => {
           <div className="md:w-3/5">
             <HText>OUR CLASSES</HText>
             <p className="py-5">
-              Fringilla a sed at suspendisse ut enim volutpat. Rhoncus vel est
-              tellus quam porttitor. Mauris velit euismod elementum arcu neque
-              facilisi. Amet semper tortor facilisis metus nibh. Rhoncus sit
-              enim mattis odio in risus nunc.
+              We offer a wide range of classes to help you get the most out of
+              your workouts, including: Strength Training, Cardio, Yoga,
+              Pilates, Spinning, Zumba, and more! No matter your fitness level
+              or goals, we have a class that's right for you. Our experienced
+              instructors will guide you through every step of the way, ensuring
+              that you get the most out of your workout.
             </p>
           </div>
         </motion.div>

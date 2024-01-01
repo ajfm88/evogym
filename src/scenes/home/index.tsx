@@ -44,9 +44,9 @@ const Home = ({ setSelectedPage }: Props) => {
             </div>
 
             <p className="mt-8 text-sm">
-              Unrivaled Gym. Unparalleled Training Fitness Classes. World Class
-              Studios to get the Body Shapes That you Dream of.. Get Your Dream
-              Body Now.
+              Unrivaled Gym. Unparalleled training. Unmatched Fitness Classes.
+              World Class Studios to get the body shape that you have always
+              dreamt of... Get your dream body now.
             </p>
           </motion.div>
 
